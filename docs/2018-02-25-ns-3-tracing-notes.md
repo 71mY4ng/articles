@@ -30,12 +30,14 @@ Payload (size=1024)
 ```
 
 1. `r` 开头第一个单独字符具有如下含义：
-|符号|English|中文|
-|---|---|---|
+
+| 符号 | English          | 中文 |
+|:-----|:-------------------------------------------------|:------|
 |`+`   |An enqueue operation occurred on the device queue | 设备队列中的入队操作|
-|`-`   |A dequeue operation occurred on the device queue | 设备队列中的出队操作|
+|`-`   |A dequeue operation occurred on the device queue  | 设备队列中的出队操作|
 |`d`   |A packet was dropped, typically because the queue was full | 数据包被丢弃，通常因为队列已满|
 |`r`   |A packet was received by the net device | 网络设备接收到数据包|
+
 2. `2.01761` 指的是单位为秒的仿真时间
 3. `/NodeList/0/DeviceList/0/$ns3::PointToPointNetDevice/MacRx` 这个是发起tracing事件的发送端，以tracing命名空间表示。这段trace的含义是：由根命名空间是NodeList的第0个节点，也就是节点0（`NodeList/0`）；此节点下的第0个设备（`DeviceList/0`），是`$ns3::PointToPointNetDevice`类型的；并且它是数据包的接收trace端（`MacRx`），这也与首字符`r`（接收到数据包的事件标识符）所对应。
 相似的还有`TxQueue/Enqueue`对应了入队操作，也就是首字符是`+`的trace事件。
