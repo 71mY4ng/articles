@@ -1,2 +1,8 @@
-" theme: jekyll-theme-cayman
+title: TimYang Github Pages
+show_downloads: false
+google_analytics:
 remote_theme: "dracula/gh-pages"
+show_header: true
+
+sass:
+    style: compressed
