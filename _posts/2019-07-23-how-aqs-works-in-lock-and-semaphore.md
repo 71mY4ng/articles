@@ -5,8 +5,6 @@ tags: aqs ReentrantLock Semaphore
 ---
 
 
-# AQS 及在ReentrantLock、Semaphore中的应用
-
 AQS (AbstractQueuedSynchronizer) 是JDK 中的一个抽象类，旨在
 
 >提供一个基于FIFO等待队列的阻塞锁，以及相关同步器（例如： 信号量，事件等等）的实现框架。适用于那些用一个原子整数值来代表状态的 sychronizer。
@@ -125,5 +123,5 @@ G -->|否| K[释放成功]
 
 ---
 
-- [1]:https://www.cnblogs.com/takumicx/p/9402021.html "ReentrantLock 源码解析"
+- [1]https://www.cnblogs.com/takumicx/p/9402021.html "ReentrantLock 源码解析"
 
