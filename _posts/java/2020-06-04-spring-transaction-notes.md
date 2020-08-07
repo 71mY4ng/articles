@@ -40,7 +40,7 @@ _placeholder_
 
 Spring 对事务的抽象关键在于事务策略的概念，事务策略在Spring 框架中被定义成一个接口: `org.springframework.transaction.PlatformTransactionManager`
 
-```java
+```Java
 public interface PlatformTransactionManager {
 
     TransactionStatus getTransaction(TransactionDefinition definition) throws TransactionException;
@@ -71,7 +71,7 @@ public interface PlatformTransactionManager {
 
 `TransactionStatus` 定义了一组可供事务代码方便地查询事务状态和控制事务的执行的方法。
 
-```java
+```Java
 public interface TransactionStatus extends SavepointManager {
 
     boolean isNewTransaction();
@@ -92,7 +92,7 @@ public interface TransactionStatus extends SavepointManager {
 
 如下例子你看到如何使用apache dbcp 工具来指定一个 Jdbc 的 `DataSource` bean。
 
-```xml
+```XML
 <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
     <property name="driverClassName" value="${jdbc.driverClassName}" />
     <property name="url" value="${jdbc.url}" />
@@ -104,7 +104,7 @@ public interface TransactionStatus extends SavepointManager {
 
 与其相关的PlatformTransactionManager包含了一个DataSource 的引用，所以需要这样的配置
 
-```xml
+```XML
 <bean id="txManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
     <property name="dataSource" ref="dataSource"/>
 </bean>
@@ -112,7 +112,7 @@ public interface TransactionStatus extends SavepointManager {
 
 如果你使用java EE 的 JTA, 那么就需要容器管理的 DataSource，并且通过JNDI获取, 从下面配置我们可以看到用的是 JtaTransactionManager，是Spring 提供的在JTA 环境下 `PlatformTransactionManager` 实现。
 
-```xml
+```XML
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
