@@ -325,3 +325,19 @@ LinkedHashMap 提供了实现LRU 的方法，HashMap 提供了 `afterNodeInserti
 
 默认情况下 `removeEldestEntry` 是返回 false 的，也即是默认不开启 LRU 功能，如果希望使用LRU, 可以将 `removeEldestEntry` 方法覆写。
 
+## TreeMap
+
+> A Red-Black tree based `NavigableMap` implementation.
+> The map is sorted according to the `Comparable` natural ordering of its keys, or by a  `Comparator` provided at map creation time, depending on which constructor is used.
+
+TreeMap 是基于 NavigableMap 而实现的红黑树结构。
+
+因为其 NavigableMap 接口的特性，具有以下API
+
+* ceilling 大于等于给定项目的最小值
+* descending 返回逆序视图
+* floor 小于等于给定项的最大值
+* head 返回远小于给定项的元素集合, `[head, toE]`
+* tail 返回远大于给定项的元素集合, `[toE, tail]`
+* higher 返回严格大于给定项的元素, 
+* lower 返回严格小于给定项的元素
