@@ -142,7 +142,7 @@ Object::wait, Object::notify, Object::notifyAll 需要在 synchronized 声明的
 
 ## 信号量 Semaphore
 
-Semaphore 
+Semaphore (信号量)的设计是限制一定数量的线程同时运行，超过限制的线程等待。
 
 
 ```java
@@ -190,3 +190,19 @@ Semaphore
     }
 
 ```
+
+
+## CyclicBarrier
+
+栅栏，当达到设置数量上限的线程执行到了 `await()` 方法时，才会继续。
+
+和 Semaphore 的区别就是：
+
+* Semaphore 等待获准进入执行
+* CyclicBarrier 等待一起执行完成则进行下一步
+
+## CountDownLatch
+
+令牌计数，使用 `await()` 阻塞, 当 countDown 为0时，才能唤醒
+
+与 CyclicBarrier 的区别是 CountDownLatch 不可重入

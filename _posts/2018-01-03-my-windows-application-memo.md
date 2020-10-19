@@ -50,6 +50,7 @@ tags: windows 软件推荐 备忘
   - draw.io
   - naotu.baidu.com
   - asciiflow.com
+  - Visual Paradigm
 * 3d 图形
   - MagicaVoxel
   - SketchUp
@@ -134,6 +135,7 @@ tags: windows 软件推荐 备忘
   - UltraISO
   - BootICE（分区管理MBR,PBR；BCD,UEFI,GRUB4DOS管理）
   - win setup from usb
+  - RUFUS
 * Anti-MalWare 反病毒软件 
   - Microsoft Defender
   - 火绒
