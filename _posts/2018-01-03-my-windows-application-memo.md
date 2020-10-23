@@ -89,6 +89,7 @@ tags: windows 软件推荐 备忘
   - WallPaperEngine （动态壁纸）
   - Wox+EveryThing（同Listary）
   - [TrafficMonitor](https://github.com/zhongyang219/TrafficMonitor)
+  - (Windows Power Toys)[https://github.com/microsoft/PowerToys]
 * Guitar 吉他爱好者软件
   - Guitar Pro
   - tuxguitar
@@ -126,16 +127,15 @@ tags: windows 软件推荐 备忘
 * Database Manager 数据库管理工具
   - mycli (MySQL CLI)
   - pgcli (PostgreSql Cli)
-  - Navicat
   - HeidiSQL
-  - MySQL
   - SQLyog
-  - SQL server
-  - Oracle DB
+  - PL/SQL (Oracle DB)
+  - DBeaver
 * IDE 集成开发环境
   - NetBeans （Java）
-  - Eclipse/MyEclipse （Java，C++）
-  - IDEA intelliJ/PyCharm/Android Stuidio
+  - Eclipse/SpringToolSuite（Java）
+  - Visual Studio (C++)
+  - Jetbrains: IDEA intelliJ/PyCharm/CLion
 * 启动项，系统镜像管理，USB启动
   - EasyBCD（管理启动项）
   - UltraISO
@@ -159,4 +159,5 @@ tags: windows 软件推荐 备忘
   - YaHei Consolas Hybrid
   - Dejavu Sans Mono
   - Source Code Pro
-  - No!MeiryoUI (替换系统字体) (Tatsu-syo/noMeiryoUI)[https://github.com/Tatsu-syo/noMeiryoUI]
+  - (更纱黑体)[https://github.com/be5invis/Sarasa-Gothic]
+  - No!MeiryoUI (替换系统字体工具 Tatsu-syo/noMeiryoUI)[https://github.com/Tatsu-syo/noMeiryoUI]
