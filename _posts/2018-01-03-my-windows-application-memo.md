@@ -15,6 +15,7 @@ tags: windows 软件推荐 备忘
   - Cmder（ComEnu一次封装）
   - Windows Subsystem of Linux （Win10）
   - [WSL-Terminal](https://goreliu.github.io/wsl-terminal/)
+  - Windows Terminal [microsoft/terminal](https://github.com/microsoft/terminal)
 
 <!--more-->
 * SSH
@@ -23,6 +24,7 @@ tags: windows 软件推荐 备忘
   - Cygwin
   - SecureCRT
   - VNCviewer
+  - Mobaxterm
 * Music 音乐软件
   - Mp3Tag （修改音乐ID3信息）
   - Foobar2000 （本地播放器）
@@ -65,6 +67,7 @@ tags: windows 软件推荐 备忘
   - Microsoft OneNote
   - Evernote 印象笔记
   - 为知云笔记
+  - evernote markdown (vscode + evermonkey)
 * PDF Readr
   - SumatraPDF
   - PDFXViewer
@@ -97,14 +100,17 @@ tags: windows 软件推荐 备忘
   - SAI
   - Adobe Illustrator
 * Windows下驱动管理
-  - 驱动精灵
+  - 驱动精灵 (一次安装注意捆绑)
+  - Windows Update
 * ctfmon/IME 输入法
-  - Microsoft Bing Pinyin: ()[]
+  - Microsoft Bing Pinyin
   - Google Pinyin
   - [RIME | 中州韻](https://rime.im/)
+  - 手心输入法
 * WebBrowser 浏览器
   - Google Chrome
   - Mozilia FireFox 开发人员版
+  - Microsoft Edge Insider (Highly Recommand)
 * Instant Messager 即时通讯
   - Telegram for Windows
   - Wechat for Windows 微信
@@ -134,7 +140,7 @@ tags: windows 软件推荐 备忘
   - EasyBCD（管理启动项）
   - UltraISO
   - BootICE（分区管理MBR,PBR；BCD,UEFI,GRUB4DOS管理）
-  - win setup from usb
+  - winSetupFromUsb
   - RUFUS
 * Anti-MalWare 反病毒软件 
   - Microsoft Defender
@@ -153,3 +159,4 @@ tags: windows 软件推荐 备忘
   - YaHei Consolas Hybrid
   - Dejavu Sans Mono
   - Source Code Pro
+  - No!MeiryoUI (替换系统字体) (Tatsu-syo/noMeiryoUI)[https://github.com/Tatsu-syo/noMeiryoUI]
